@@ -4409,3 +4409,5 @@ uint8_t *av_stream_get_side_data(AVStream *st, enum AVPacketSideDataType type,
     }
     return NULL;
 }
+
+#include "_utils.c"
